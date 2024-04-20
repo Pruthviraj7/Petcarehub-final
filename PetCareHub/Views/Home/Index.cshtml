@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main class="container">
+    <section class="row" aria-labelledby="petCareHubTitle">
+        <h1 id="title" class="text-center">PetCareHub</h1>
+        <p class="lead text-center">Welcome to PetCareHub, your one-stop solution for pet care management.</p>
+        <p class="text-center"><a href="/Pets/List" class="btn btn-primary btn-lg">View Pets &raquo;</a></p>
+    </section>
+
+    <div class="row">
+        <section class="col-md-4" aria-labelledby="petsTitle">
+            <h2 id="petsTitle" class="text-center">Pets</h2>
+            <p class="text-center">
+                Manage your pets, their appointments, and associated veterinarians with ease.
+            </p>
+            <p class="text-center"><a href="/Pets/List" class="btn btn-outline-dark">View Pets &raquo;</a></p>
+        </section>
+        <section class="col-md-4" aria-labelledby="veterinariansTitle">
+            <h2 id="veterinariansTitle" class="text-center">Veterinarians</h2>
+            <p class="text-center">Explore our network of experienced veterinarians ready to care for your pets.</p>
+            <p class="text-center"><a href="/Veteran/List" class="btn btn-outline-dark">View Veterinarians &raquo;</a></p>
+        </section>
+        <section class="col-md-4" aria-labelledby="appointmentsTitle">
+            <h2 id="appointmentsTitle" class="text-center">Appointments</h2>
+            <p class="text-center">Schedule appointments for your pets with our skilled veterinarians.</p>
+            <p class="text-center"><a href="/Appointment/List" class="btn btn-outline-dark">View Appointments &raquo;</a></p>
+        </section>
+    </div>
+</main>
